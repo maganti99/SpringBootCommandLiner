@@ -28,6 +28,7 @@ public class PeopleManagementSpringBootDataAppApplication implements CommandLine
 		createPersons();
 	}
 
+	//Create multiple persons
 	private void createPersons() {
 		List<Person> personList = Arrays.asList(new Person("Barry", "Johnson", "barry.j2019@Gmail.com", 
 				new Date()),new Person("Kishan", "Kumar", "kishan.cs2019@yahoo.com", new Date()));
