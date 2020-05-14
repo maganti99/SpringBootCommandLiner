@@ -57,5 +57,11 @@
 		</plugins>
 	</build>
 
+     <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>file:C:/repo/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
